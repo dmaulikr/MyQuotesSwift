@@ -19,6 +19,7 @@
 		8427FC631F06965F0048E675 /* QuoteFromUserCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427FC621F06965F0048E675 /* QuoteFromUserCellTableViewCell.swift */; };
 		8427FC651F06AE5D0048E675 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8427FC641F06AE5D0048E675 /* GoogleService-Info.plist */; };
 		842CBA421F28CE5300903559 /* DetailQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CBA411F28CE5300903559 /* DetailQuoteViewController.swift */; };
+		842CBA461F29F4ED00903559 /* AddCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CBA451F29F4ED00903559 /* AddCommentViewController.swift */; };
 		8436EB9A1F20A9CC00D70D91 /* NewQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436EB991F20A9CC00D70D91 /* NewQuotesViewController.swift */; };
 		846860DF1EF666B000F3A309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846860DE1EF666B000F3A309 /* AppDelegate.swift */; };
 		846860E11EF666B000F3A309 /* QuoteFromUsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846860E01EF666B000F3A309 /* QuoteFromUsersController.swift */; };
@@ -26,8 +27,14 @@
 		846860E71EF666B000F3A309 /* My_Quotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846860E51EF666B000F3A309 /* My_Quotes.xcdatamodeld */; };
 		846860E91EF666B000F3A309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846860E81EF666B000F3A309 /* Assets.xcassets */; };
 		846860EC1EF666B000F3A309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846860EA1EF666B000F3A309 /* LaunchScreen.storyboard */; };
-		84CF5D4E1F09E96000B3DA3F /* DetailQuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF5D4D1F09E96000B3DA3F /* DetailQuoteTableViewCell.swift */; };
+		84B5EE201F30218400154D1A /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5EE1F1F30218400154D1A /* CommentTableViewCell.swift */; };
+		84B5EE221F3026A100154D1A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5EE211F3026A100154D1A /* SearchViewController.swift */; };
+		84B5EE491F305E8800154D1A /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5EE481F305E8800154D1A /* SearchTableViewCell.swift */; };
 		D07CE2FE3ECDC02DD2DCD2B9 /* Pods_My_Quotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6A7C3A57BA9E9F474629A /* Pods_My_Quotes.framework */; };
+		E230283F1F32E03F006F8CAB /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230283E1F32E03E006F8CAB /* FavoritesViewController.swift */; };
+		E23028411F330EF5006F8CAB /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23028401F330EF5006F8CAB /* FavoriteTableViewCell.swift */; };
+		E23028451F340B74006F8CAB /* AuthorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23028441F340B74006F8CAB /* AuthorTableViewCell.swift */; };
+		E23028471F3410D2006F8CAB /* AuthorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23028461F3410D2006F8CAB /* AuthorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +69,7 @@
 		8427FC621F06965F0048E675 /* QuoteFromUserCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteFromUserCellTableViewCell.swift; sourceTree = "<group>"; };
 		8427FC641F06AE5D0048E675 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		842CBA411F28CE5300903559 /* DetailQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailQuoteViewController.swift; sourceTree = "<group>"; };
+		842CBA451F29F4ED00903559 /* AddCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommentViewController.swift; sourceTree = "<group>"; };
 		8436EB991F20A9CC00D70D91 /* NewQuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewQuotesViewController.swift; sourceTree = "<group>"; };
 		846860DB1EF666B000F3A309 /* My Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846860DE1EF666B000F3A309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,8 +79,14 @@
 		846860E81EF666B000F3A309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846860EB1EF666B000F3A309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846860ED1EF666B000F3A309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84CF5D4D1F09E96000B3DA3F /* DetailQuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailQuoteTableViewCell.swift; sourceTree = "<group>"; };
+		84B5EE1F1F30218400154D1A /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		84B5EE211F3026A100154D1A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		84B5EE481F305E8800154D1A /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		D0BC0FD578F5112890524354 /* Pods-My Quotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Quotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Quotes/Pods-My Quotes.release.xcconfig"; sourceTree = "<group>"; };
+		E230283E1F32E03E006F8CAB /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		E23028401F330EF5006F8CAB /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		E23028441F340B74006F8CAB /* AuthorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorTableViewCell.swift; sourceTree = "<group>"; };
+		E23028461F3410D2006F8CAB /* AuthorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorTableViewController.swift; sourceTree = "<group>"; };
 		E3AC4EA3BF75E6A30B4E185A /* Pods-My Quotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Quotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Quotes/Pods-My Quotes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +137,10 @@
 				8427FC3A1F0646020048E675 /* UpLoadQuoteToBackendlessViewController.swift */,
 				8436EB991F20A9CC00D70D91 /* NewQuotesViewController.swift */,
 				842CBA411F28CE5300903559 /* DetailQuoteViewController.swift */,
+				842CBA451F29F4ED00903559 /* AddCommentViewController.swift */,
+				84B5EE211F3026A100154D1A /* SearchViewController.swift */,
+				E230283E1F32E03E006F8CAB /* FavoritesViewController.swift */,
+				E23028461F3410D2006F8CAB /* AuthorTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -139,7 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				8427FC621F06965F0048E675 /* QuoteFromUserCellTableViewCell.swift */,
-				84CF5D4D1F09E96000B3DA3F /* DetailQuoteTableViewCell.swift */,
+				84B5EE1F1F30218400154D1A /* CommentTableViewCell.swift */,
+				84B5EE481F305E8800154D1A /* SearchTableViewCell.swift */,
+				E23028401F330EF5006F8CAB /* FavoriteTableViewCell.swift */,
+				E23028441F340B74006F8CAB /* AuthorTableViewCell.swift */,
 			);
 			name = UIViewCell;
 			sourceTree = "<group>";
@@ -364,14 +385,21 @@
 				8427FC591F068FCE0048E675 /* CheckConnected.swift in Sources */,
 				8427FC571F068F2B0048E675 /* CheckInternet.swift in Sources */,
 				8427FC3D1F0648540048E675 /* Model.swift in Sources */,
-				84CF5D4E1F09E96000B3DA3F /* DetailQuoteTableViewCell.swift in Sources */,
 				846860E11EF666B000F3A309 /* QuoteFromUsersController.swift in Sources */,
+				E23028451F340B74006F8CAB /* AuthorTableViewCell.swift in Sources */,
 				846860E71EF666B000F3A309 /* My_Quotes.xcdatamodeld in Sources */,
 				842CBA421F28CE5300903559 /* DetailQuoteViewController.swift in Sources */,
+				E23028411F330EF5006F8CAB /* FavoriteTableViewCell.swift in Sources */,
 				8427FC401F064CE80048E675 /* MyExtensions.swift in Sources */,
 				846860DF1EF666B000F3A309 /* AppDelegate.swift in Sources */,
+				84B5EE221F3026A100154D1A /* SearchViewController.swift in Sources */,
+				84B5EE491F305E8800154D1A /* SearchTableViewCell.swift in Sources */,
+				E23028471F3410D2006F8CAB /* AuthorTableViewController.swift in Sources */,
+				E230283F1F32E03F006F8CAB /* FavoritesViewController.swift in Sources */,
+				84B5EE201F30218400154D1A /* CommentTableViewCell.swift in Sources */,
 				8427FC631F06965F0048E675 /* QuoteFromUserCellTableViewCell.swift in Sources */,
 				8436EB9A1F20A9CC00D70D91 /* NewQuotesViewController.swift in Sources */,
+				842CBA461F29F4ED00903559 /* AddCommentViewController.swift in Sources */,
 				8427FC3B1F0646020048E675 /* UpLoadQuoteToBackendlessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

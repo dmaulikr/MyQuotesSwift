@@ -68,7 +68,7 @@ class COMMENT: NSObject {
     var cmContent: String?
     var cmDevice: String?
     var cmLocation: String?
-    var cmObjectCommentId: String?
+    var cmQuoteId: String?
     var created: Date?
     var objectId: String?
     

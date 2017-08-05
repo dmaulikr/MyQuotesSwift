@@ -21,6 +21,9 @@ class UpLoadQuoteToBackendlessViewController: UIViewController {
     
     @IBOutlet weak var btnOk: UIButton!
     
+    var hvaSoftware = UILabel()
+    
+    
     let backendless = Backendless.sharedInstance()
     let actInd: UIActivityIndicatorView = UIActivityIndicatorView()
     let tvLoading = UILabel()
@@ -30,6 +33,9 @@ class UpLoadQuoteToBackendlessViewController: UIViewController {
         super.viewDidLoad()
         
         setUpView()
+        
+        
+    
         
         
     }
@@ -42,6 +48,45 @@ class UpLoadQuoteToBackendlessViewController: UIViewController {
         
         
     }
+    func setUpHvASoftware() -> Void {
+        view.addSubview(hvaSoftware)
+        hvaSoftware.text = "HVA Software 2017"
+        hvaSoftware.font = hvaSoftware.font.withSize(16)
+        hvaSoftware.textColor = UIColor.black
+        
+        
+        
+        
+        
+        
+   
+        /*
+         let left = NSLayoutConstraint(item: hvaSoftware, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: 0)
+         
+         let right = NSLayoutConstraint(item: hvaSoftware, attribute: .right, relatedBy: .equal, toItem: view, attribute: .right, multiplier: 1, constant: 0)
+         
+         let bottom = NSLayoutConstraint(item: hvaSoftware, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1, constant: 0)
+         
+         
+         let height = NSLayoutConstraint(item: hvaSoftware, attribute: .height, relatedBy: .equal, toItem: view, attribute: .height, multiplier: 1/10, constant: 0)
+         
+         
+         hvaSoftware.autoresizesSubviews = false
+         
+         hvaSoftware.translatesAutoresizingMaskIntoConstraints = false
+         
+         view.addConstraints([left, right, bottom, height])
+
+ */
+        
+
+        
+        
+    }
+    
+    
+    
+    
     
     
     @IBAction func uploadQuoteToSever(_ sender: Any) {
